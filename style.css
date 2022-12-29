@@ -51,6 +51,7 @@ nav ul li {
     padding: 34px;
     background-image: url('bgg.jpg');
     border-color:white;
+    box-shadow: white;
 }
 
 
@@ -89,7 +90,7 @@ nav ul li {
     height: 50px;
     display: flex;
     background-color: white;
-    width: 80%;
+    width: 88%;
     color: black;
     margin: 12px 0px;
     justify-content: space-between;
@@ -110,8 +111,17 @@ nav ul li {
     
 }
 
+.playbtn{
+    margin: 0 23px;
+}
+
 .timestamp i {
     cursor: pointer;
+}
+
+.timestamp img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in ;
 }
 
 .songInfo {
