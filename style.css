@@ -3,6 +3,7 @@ body {
   background-color: rgb(75, 74, 74);
   background-image: url('wholebg.jpg');
   background-blend-mode:luminosity;
+  background-repeat:repeat-y;
 }
 * {
   margin: 0;
@@ -52,6 +53,8 @@ nav ul li {
     background-image: url('bgg.jpg');
     border-color:white;
     box-shadow: white;
+    background-repeat: no-repeat;
+   
 }
 
 
@@ -134,3 +137,31 @@ nav ul li {
     opacity: 0;
     transition: opacity 0.4s ease-in ;
 }
+
+@media screen and (max-width: 500px) {
+    .songItem{
+        width: 100%;
+        font-size: 70%;
+    }
+    .bottom{
+        height: 100px;
+    }
+    #myProgressBar{
+        margin: 2px ;
+    }
+
+    .icons{
+        justify-content:space-evenly;
+        bottom: 0;
+        
+    }
+    .icons i{
+        bottom: 0;
+        margin: 10px;
+    }
+    #masterSongName{
+       position: relative;
+       bottom: 12px;
+        margin: 30px;
+    }
+  }

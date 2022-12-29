@@ -99,7 +99,7 @@ const Selectbtn = ()=>{ Array.from(document.getElementsByClassName('songItemPlay
 //Update to the next song
 
 document.getElementById('next').addEventListener('click', ()=> {
-    if(songIndex>=6){
+    if(songIndex>=7){
         songIndex = 0;
     }
     else{
