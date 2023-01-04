@@ -138,6 +138,24 @@ nav ul li {
     transition: opacity 0.4s ease-in ;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    font-family: 'Varela Round', sans-serif;
+        /* font-family: 'Baloo Bhaina 2'; */
+    color: white;
+}
+
+footer div{
+    display: flex;
+    padding: 5px;
+    
+
+}
+
+
 @media screen and (max-width: 500px) {
     .songItem{
         width: 100%;
